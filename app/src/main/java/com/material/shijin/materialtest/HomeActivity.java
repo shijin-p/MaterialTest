@@ -11,6 +11,8 @@ import android.view.View;
 
 public class HomeActivity extends ActionBarActivity {
 
+    public static final String EXTRA_NAME = "_name";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +40,10 @@ public class HomeActivity extends ActionBarActivity {
 
     public void collapsingToolbar(View view) {
         startActivity(new Intent(HomeActivity.this, CollapsingToolbarActivity.class));
+    }
+
+    public void parallaxToolbar(View view) {
+        startActivity(new Intent(HomeActivity.this, ParallaxActivity.class));
     }
 
     @Override

@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.MaterialDesign">
+        <item name="android:colorPrimary">#00796b</item>
+        <item name="android:colorPrimaryDark">#009688</item>
+        <item name="android:colorAccent">#e91e63</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!--    <style name="Widget.CardContent" parent="android:Widget">
+            <item name="android:paddingLeft">16dp</item>
+            <item name="android:paddingRight">16dp</item>
+            <item name="android:paddingTop">24dp</item>
+            <item name="android:paddingBottom">24dp</item>
+            <item name="android:orientation">vertical</item>
+        </style>-->
+
+</resources>

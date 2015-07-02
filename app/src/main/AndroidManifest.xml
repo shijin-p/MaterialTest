@@ -20,6 +20,10 @@
         <activity
             android:name=".CollapsingToolbarActivity"
             android:label="CollapsingToolbarActivity"></activity>
+
+        <activity
+            android:name=".ParallaxActivity"
+            android:label="ParallaxActivity"></activity>
     </application>
 
 </manifest>

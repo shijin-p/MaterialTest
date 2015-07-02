@@ -39,6 +39,16 @@
             android:padding="15dp"
             android:text="Collapsing Toolbar" />
 
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#CCCCCC"
+            android:onClick="parallaxToolbar"
+            android:padding="15dp"
+            android:text="Parallax Toolbar" />
+
     </LinearLayout>
 
 </ScrollView>
