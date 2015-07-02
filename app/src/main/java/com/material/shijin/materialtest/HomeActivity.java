@@ -43,7 +43,9 @@ public class HomeActivity extends ActionBarActivity {
     }
 
     public void parallaxToolbar(View view) {
-        startActivity(new Intent(HomeActivity.this, ParallaxActivity.class));
+        Intent intent = new Intent(HomeActivity.this, ParallaxActivity.class);
+        intent.putExtra(EXTRA_NAME, "Parallax");
+        startActivity(intent);
     }
 
     @Override
